@@ -8,7 +8,7 @@ const ThemeSwitcher = () => {
 
   return (
     <div>
-      Текущая тема: {theme}
+      <h1>Текущая тема: {theme}</h1>
       <button
         className="theme-switcher-btn"
         onClick={() => dispatch(toggleTheme())}
